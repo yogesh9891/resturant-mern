@@ -1,0 +1,18 @@
+.signup-container {
+    background-image: url('./../../assets/sign-up-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 100vh;
+}
+        
+.sign-btn ,.login-btn {
+    margin: 15px auto;
+    width: 75%;
+    border-radius: 5px;;
+}
+
+.sign-up-form .col-md-5{
+    margin: 100px auto;
+}

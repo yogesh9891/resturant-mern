@@ -1,11 +1,18 @@
 {
-  "name": "ecommerce",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "restaurant",
+    "version": "1.0.0",
+    "description": "This is a test app",
+    "main": "server.js",
+    "scripts": {
+        "test": "npm test",
+        "start": "node server.js",
+        "start-server": "nodemon server.js"
+    },
+    "author": "Sagar Gopale",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongoose": "^5.13.7",
+        "nodemon": "^2.0.12"
+    }
 }
